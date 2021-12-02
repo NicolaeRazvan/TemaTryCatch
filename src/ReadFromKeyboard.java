@@ -83,7 +83,7 @@ public class ReadFromKeyboard {
 
     }
 
-    public List<Integer> getList() {
+    public List<Integer> doInsertAList() {
         Scanner scan = new Scanner(System.in);
         List<Integer> myList = new ArrayList<>();
         try {
